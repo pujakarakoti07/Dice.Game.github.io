@@ -1,0 +1,54 @@
+#navbar{
+ display:flex;
+}
+img{
+    width: 67px;
+    height: 67px;
+    margin: 13px;
+    border-radius: 30px;
+}
+#navbar{
+    padding-left: 600px;
+    padding-bottom:19px;
+    background-color: black;
+}
+#text{
+    font-size: 29px;
+    color: white;
+    padding-top: 20px;
+} 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.player1,.player2{
+    height: 353px;
+    width: 353px;
+}
+#game{
+    padding: 54px 377px;
+    background-color: rgb(168, 89, 241);
+}
+button{
+    height: 53px;
+    width: 106px;
+    margin: 13px;
+    background-color: cadetblue;
+    border-width: 7px;
+}
+button:hover{
+    background-color: rgb(69, 91, 92);
+    color: white;
+    font-weight: 23px;
+}
+.btn{
+    padding-left: 693px;
+    background-color: rgba(43, 38, 38, 0.392);
+ 
+
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
