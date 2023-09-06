@@ -1,54 +1,71 @@
-#navbar{
- display:flex;
+*{
+    padding: 0;
+    margin: 0;
 }
-img{
-    width: 67px;
-    height: 67px;
-    margin: 13px;
-    border-radius: 30px;
-}
-#navbar{
 
-    padding-bottom:2rem;
+.navbar{
     background-color: black;
 }
-#text{
-    font-size: 4rem;
-    color: white;
-    padding-top: 2rem;
-    padding-right: 23rem;
-} 
-*{
-    margin: 0%;
-    padding: 0%;
+.head{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 13px;
+    font-size: 33px;
+    font-weight: 700;
 }
-.player1,.player2{
-    height: 22rem;
-    width: 22rem;
+.player1, .player2{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 13px;
+    margin-top: 23px;
 }
-#game{
-    background-color: rgb(168, 89, 241);
+.diebox{
+    
+    padding-left: 25px;
 }
-button{
-    height: 53px;
-    width: 106px;
-    margin: 13px;
-    background-color: cadetblue;
-    border-width: 7px;
+.player1{
+    margin-right: 13px;
 }
-button:hover{
-    background-color: rgb(69, 91, 92);
-    color: white;
-    font-weight: 23px;
-}
-.btn{
-    padding-left: 8rem;
-    background-color: rgba(43, 38, 38, 0.392);
- 
+.info{
+    padding-top: 13px;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-h1{
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+.die{
+   
+    display: flex;
 }
+@media (max-width:472px) {
+    .die{
+        flex-wrap: wrap;
+       
+    }
+    .player1,.player2{
+        margin-bottom: 13px;
+    }
+    
+}
+.reset{
+    height: 43px;
+    width: 144px;
+    margin-top: 23px;
+    border-radius: 13px;
+    background-color: rgba(130, 144, 234, 0.286);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 11px;
+}
+.reset:hover{
+    background-color: rgb(147, 167, 240);
+    columns: black;
+}
+.diebox{
+    background-color: grey;
+}
+@keyframes shake {
+    
+    
+}
+
+
 
