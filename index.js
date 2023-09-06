@@ -7,12 +7,12 @@ function player(){
     var x=Math.floor(Math.random()*6)+1;
     document.querySelector("img.player2").setAttribute("src","dice-six-faces-"+x+".png");
     if(n<x){
-        document.querySelector(".info").innerHTML="PLAYER2 WINS!"
+        document.querySelector(".head").innerHTML="PLAYER2 WINS!"
     }
     else if(n>x){
-        document.querySelector(".info").innerHTML="PLAYER1 WINS!"
+        document.querySelector(".head").innerHTML="PLAYER1 WINS!"
     }
     else{
-        document.querySelector(".info").innerHTML="DRAW!"
+        document.querySelector(".head").innerHTML="DRAW!"
     }
 }      
