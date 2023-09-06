@@ -11,11 +11,8 @@ function player(){
     }
     else if(n>x){
         document.querySelector(".info").innerHTML="PLAYER1 WINS!"
-
-
     }
     else{
         document.querySelector(".info").innerHTML="DRAW!"
-
     }
 }      
